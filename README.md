@@ -1,6 +1,7 @@
 # Time-Based Trading Strategy with TP/SL
 
-![Strategy Visualization](https://imgur.com/a/z6pULt4) *(example image placeholder)*
+![Strategy Visualization](https://i.imgur.com/9QR7AH0.png) 
+*(example image placeholder)*
 
 ## Strategy Overview
 This Pine Script implements a time-based trading strategy that:
@@ -66,10 +67,5 @@ Check the Strategy Tester tab for:
 - Uses fixed percentage-based exits
 - Doesn't account for slippage/spreads
 - Minute-based precision depends on chart timeframe
-
-## Version History
-- v1.0 (2023-08-20): Initial release with TP only
-- v1.1 (2023-08-21): Added stop loss functionality
-- v1.2 (2023-08-22): Improved input validation and visuals
 
 > **Note**: Always forward test strategies before live trading. Past performance doesn't guarantee future results.
