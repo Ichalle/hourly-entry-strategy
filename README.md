@@ -1,7 +1,6 @@
 # Time-Based Trading Strategy with TP/SL
 
-![Strategy Visualization](https://i.imgur.com/SyiY68B.png) 
-*(example image placeholder)*
+![Strategy Visualization](https://i.imgur.com/gadWnpK.png) 
 
 ## Strategy Overview
 This Pine Script implements a time-based trading strategy that:
@@ -19,14 +18,14 @@ This Pine Script implements a time-based trading strategy that:
 ## Input Parameters
 | Parameter | Description | Default | Range |
 |-----------|-------------|---------|-------|
-| `Entry Hour` | Hour for trade entries (24h format) | 14 | 0-23 |
-| `Backtest Period` | Number of days to test | 50 | ≥1 |
+| `Entry Hour` | Hour for trade entries (24h format UTC+0 Time) | 1 | 0-23 |
+| `Backtest Period` | Number of days to test | 30 | ≥1 |
 | `Take Profit` | Profit target percentage | 2.0% | 0.1-100% |
 | `Stop Loss` | Risk limit percentage | 1.5% | 0.1-100% |
 
 ## How It Works
 1. **Entry Condition**:
-   - Triggers at the specified hour (e.g., 14:00)
+   - Triggers at the specified hour (e.g., 01:00)
    - Only enters if no position is currently open
 
 2. **Exit Conditions**:
@@ -51,7 +50,6 @@ This Pine Script implements a time-based trading strategy that:
 - Combine with other indicators by adding filters to entry condition
 
 ## Example Use Cases
-- Testing London open (8:00) vs New York open (14:00)
 - Comparing different TP/SL ratios (e.g., 1:1 vs 2:1 risk-reward)
 - Analyzing specific market hours' profitability
 
