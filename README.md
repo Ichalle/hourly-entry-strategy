@@ -1,6 +1,6 @@
 # Time-Based Trading Strategy with TP/SL
 
-![Strategy Visualization](https://i.imgur.com/9QR7AH0.png) 
+![Strategy Visualization](https://i.imgur.com/SyiY68B.png) 
 *(example image placeholder)*
 
 ## Strategy Overview
